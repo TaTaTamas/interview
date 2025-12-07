@@ -30,5 +30,10 @@ public class MinimumDifferenceControllerTest {
                 .andExpect(content().string("5"));
     }
 
-
+    @Test
+    public void minimumDifferenceCalculationIsRight() throws Exception {
+        mockMvc.perform(get("/minimumdifference?numbers=30,20,10,15,5"))
+                .andExpect(status().isOk())
+                .andExpect(content().string("5"));
+    }
 }

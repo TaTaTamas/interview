@@ -26,6 +26,12 @@
 		<tag/>
 		<url/>
 	</scm>
+	<repositories>
+		<repository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/TaTaTamas/jobtest</url>
+		</repository>
+	</repositories>
 	<properties>
 		<java.version>25</java.version>
 	</properties>

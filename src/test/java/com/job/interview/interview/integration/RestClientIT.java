@@ -1,14 +1,15 @@
 package com.job.interview.interview.integration;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.springframework.web.client.RestClient;
 
-
-public class RestClientIntTest {
+@Tag("integration")
+public class RestClientIT {
 
     private RestClient restClient;
 

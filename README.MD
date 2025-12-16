@@ -1,6 +1,8 @@
-quick setup for springboot => https://start.spring.io/
+Run test with Maven => 
+<br>mvn clean install
 
-Run test with Maven => mvn clean compile test
+Run spring-boot project => 
+<br>mvn spring-boot:run
 
-Run spring-boot project => mvn spring-boot:run
-
+REMINDER
+<br>quick setup for springboot => https://start.spring.io/
